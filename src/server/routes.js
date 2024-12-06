@@ -8,15 +8,9 @@ const routes = [
     options: {
       payload: {
         allow: 'multipart/form-data',
-        multipart: true,
-        maxBytes: 1000000
+        multipart: true
       }
     }
-  },
-  {
-  path: '/predict/histories',
-    method: 'GET',
-    handler: postPredictHistoriesHandler,
   }
 ]
  
